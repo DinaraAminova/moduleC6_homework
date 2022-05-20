@@ -1,4 +1,4 @@
-const wsUrl = 'wss://echo-ws-service.herokuapp.com';
+const wsUri = 'wss://echo-ws-service.herokuapp.com';
 const geoUrl = 'https://www.openstreetmap.org/';
 
 let websocket;
@@ -22,7 +22,7 @@ function createMySend(message) {
 }
 
 function openСonnection() {
-    websocket = new WebSocket(wsUrl);
+    websocket = new WebSocket(wsUri);
     websocket.onopen = function(evt) {
         console.log('CONNECTED');
     };
