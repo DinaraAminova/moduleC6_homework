@@ -1,0 +1,16 @@
+.wrapper {
+    margin: 20px;
+}
+
+#result {
+    display: flex;
+    margin: 20px;
+
+}
+
+.card-image {
+    margin: 5px;
+
+}
+
+
