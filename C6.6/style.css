@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.send {
+    display: flex;
+    margin: 30px 30px 30px 0;
+}
+
+.border {
+    border-style: solid;
+    border-color: #bad7ec;
+    font-size: 18px;
+}
+
+#input-message {
+    flex-grow: 4;
+    margin:0 30px;
+}
+
+.button {
+    background-color: #bad7ec;
+    border-style: solid;
+    border-color: #bad7ec;
+    
+}
+
+#button-send {
+    flex-grow: 1;
+}
+
+#button-geolocation {
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+.wrapper-chat {
+    width: 800px;
+    min-height: 800px;
+    margin: 30px;
+    padding: 0;
+}
+
+.my-send {
+    margin: 1vw 1vw 2vw 30vw;
+    padding: 3px;
+    border-radius: 7px;
+    word-wrap: break-word;
+}
+
+.server-send {
+    margin: 1vw 30vw 2vw 1vw;
+    padding: 3px;
+    border-radius: 7px;
+    word-wrap: break-word;
+}
